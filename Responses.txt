@@ -1,0 +1,37 @@
+2.5.a | Steps to create a container (any type)?  
+        I am unsure as to of how to create a container. To create  a VM, got to Compute Engine -> VM Instances -> Create -> Set and Instance Name, Region, Machine Type, and Boot Disk -> Create.
+2.5.b | What is Kubernetes?
+        Kubernetes is great for large, automating, deploying, scaling, and operating applications. Kubernetes makes containers easier to manage/deploy.
+2.5.c | What is a Microservice?
+        Microservices run in containers. Kubernetes made these services portable and mangageable. Microservices are small parts of an application to form the larger application. They handle one portion. They should also be standalone.
+2.5.d | Which type of data storage might you use for your app? Why?  List at least 3 types.
+        2.5.d.1 | Google Cloud SQL
+		SQL will be used for Users, Comapnies, Products, Orders, Coupons, Discounts, Logs. However not easily scalable.
+	2.5.d.2 | Google Cloud Storage Standard
+		Images for Products, Logos, 
+		2.5.d.2. | Google Cloud Storage Nearline
+			CSV files of backup SQL (Is this even a thing),
+	2.5.d.3 | Google Cloud Datastore
+		Would replace Cloud SQL. Scales easily!
+	2.5.d.4 | Google Cloud Bigtbale
+		Would replace Cloud Datastore. This will be used if the app becomes successful!
+
+3.a | Which you complete? The Azure or Google Cloud Platform?
+        I completed the Google Cloud Platform assignments.
+3.b | Did your exercises run as expected.
+        Yes. Only once did I have an issue with the Qwiklabs Tutorial. Ending and restarting the tutorial and going through it again was fine.
+3.c | Did you include screen-shots? 
+        Yes, I have included screenshots.
+
+4.1 |  Describe a app you could create for the cloud.
+	I would like to create a Point of Sale (POS) System. Beyond the standard features, I would like to add support for issuing/accepting gift cards and delivery options, along with other requested features - giving the customers what they want. Rather than paying per location and/or user, I would like to set one price for all businesses for a specified amount of use. If a business' needs surpass that limit, the invoice would be doubled. See the following basic example; lets say it is $10/mo with 10K database queries/mo. If you use 15K queries, you will be billed $20; $30 for 29K, etc. 
+4.2 |  Describe some feature of Agile Software Development.
+	Agile helps teams adapt in order to get work done faster and easier. For example, creating rules for meetings or deciding how much work should be done.
+4.3 |  How is it different from other methods of Software Development? Waterfall? 
+	Agile allows for easier changing throughout development. The waterfall method gets the client's requirments, forms a design, develops the software, implements the software, tests the software, and then provides mainenance.
+4.4 |  What is Scrum?
+	Scrum uses Sprints with a fixed duration to complete work/tasks. Week 1: develop the user login, signup, and password reset pages. Week 2: develop the account pages.
+4.5 |  What is Kanban?
+	Is a physical or virtual board with three sections. One for "To Do", the second for "In Progress", and the third for "Done/Completed".
+4.6 |  Which is better and why?
+	I find Scrum to be better because it says what needs to be done and when. Creating the Product and Customer Modules must be done prior to the Order Modules. Kanban just says here is a list of what needs to get done, figure out the best way to do it.
